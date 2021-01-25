@@ -6,7 +6,7 @@ Question 1 was regular segmentation, which was performed with a modified UNet. R
 
 ![Sample Unet Images](Unet_Images.PNG)
 
-Question 2 involved implementing pix2pix, which is a combined segmentation/GAN network. The generator is the Unet from part 1, and the discriminator is the encoder of the Unet. While results for this approach aren't great - due to a lack of computational resources - it is clear that the network is working and that the GAN was slowly getting results.
+Question 2 involved implementing pix2pix, which is a combined segmentation/GAN network. The generator is the Unet from part 1, and the discriminator is the encoder of the Unet. While results for this approach aren't great - due to a lack of computational resources - it is clear that the network is working and that the GAN was slowly getting results. Final validation performance was 0.31 Dice and 0.22 Jaccard
 
 
 ![Sample GAN Images](GAN_Images.PNG)
